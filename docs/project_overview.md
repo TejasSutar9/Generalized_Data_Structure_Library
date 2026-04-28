@@ -71,22 +71,21 @@ The library includes the following data structures:
 ---
 
 ## 5 Example Usage
-
-```cpp
+```
 #include "../library/gdsl.cpp"
 
 int main() {
-    DoublyLLL<int> dll;
+    DoublyLLL<int> dobj;
 
-    dll.InsertFirst(10);
-    dll.InsertLast(20);
-    dll.InsertAtPos(15, 2);
-    dll.Display();
+    dobj.InsertFirst(11);
+    dobj.InsertLast(21);
+    dobj.InsertAtPos(16, 2);
+    dobj.Display();   // Output: NULL<=> | 11 | <=> | 16 | <=> | 21 | <=> NULL
 
-    dll.DeleteAtPos(2);
-    dll.Display();
+    dobj.DeleteAtPos(2);
+    dobj.Display();   // Output: NULL<=> | 11 | <=> | 21 | <=> NULL
 
-    cout << "Total nodes: " << dll.Count() << endl;
+    cout << "Total nodes: " << dobj.Count() << endl;
     return 0;
 }
 ```
