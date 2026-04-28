@@ -53,11 +53,20 @@ The library includes the following data structures:
 
 ## 4 Design Principles
 
-- **Generic Templates** → Type-safe and reusable  
-- **Modular & Lightweight** → Entire library in a single file (`gdsl.cpp`)  
-- **Consistent Interfaces** → Same method naming across all structures  
-- **Efficient Memory Usage** → Optimized operations  
-- **Beginner-Friendly** → Easy to understand and use  
+- **Generic Templates**  
+  Uses templates so the same code works with any data type.
+
+- **Modular & Lightweight**  
+  Entire library is implemented in a single file (`gdsl.cpp`) for simplicity.
+
+- **Consistent Interfaces**  
+  All data structures follow the same function naming, making them easy to use.
+
+- **Efficient Memory Usage**  
+  Designed to use memory efficiently with optimized operations.
+
+- **Beginner-Friendly**  
+  Code is simple, readable, and easy to understand for learning purposes. 
 
 ---
 
